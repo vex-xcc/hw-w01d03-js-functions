@@ -28,23 +28,32 @@
 
 Method 1
 ```
-Name:
-Description:
-Example using it:
+Name: concat()
+Description: The concat() method can be used instead of the plus operator. These two lines do the same:
+Example using it: var text = "Hello".concat(" ", "World!");
+
 ```
 
 Method 2
 ```
-Name:
-Description:
+Name: 
+toLowerCase()
+Description: 
+A string is converted to lower case with toLowerCase():
 Example using it:
+let text1 = "Hello World!";       
+let text2 = text1.toLowerCase()
 ```
 
 Method 3
 ```
 Name:
+replace() 
 Description:
+By default, the replace() method replaces only the first match:
 Example using it:
+str = "Please visit Ahmed and same";
+var Rep = str.replace("same", "Ali");
 ```
 
 ## [License](LICENSE)
